@@ -25,6 +25,15 @@ const MainBody = React.forwardRef(
               {message}
             </div>
           </Typist>
+          <p className="lead" style={{ fontWeight: 300 }}>
+            Say hi to me at{" "}
+            <a
+              href="mailto:hi@merhabaerenben.com"
+              style={{ color: "inherit", textDecoration: "underline" }}
+            >
+              hi@merhabaerenben.com
+            </a>
+          </p>
           <div className="p-5">
             {icons.map((icon, index) => (
               <a
@@ -38,6 +47,7 @@ const MainBody = React.forwardRef(
               </a>
             ))}
           </div>
+          
           <a
             className="btn btn-outline-light btn-lg "
             href="#aboutme"
